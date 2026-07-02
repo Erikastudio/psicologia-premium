@@ -29,13 +29,19 @@ export default function Hero() {
           </p>
 
           <div className="flex gap-4 mt-10">
-            <button className="bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-4 rounded-full transition shadow-md">
-              Agenda tu cita
-            </button>
+            <a
+  href="#contacto"
+  className="bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-4 rounded-full transition shadow-md"
+>
+  Agenda tu cita
+</a>
 
-            <button className="border border-emerald-700 text-emerald-700 hover:bg-emerald-50 px-8 py-4 rounded-full transition">
-              Conoce más
-            </button>
+            <a
+  href="#nosotros"
+  className="border border-emerald-700 text-emerald-700 hover:bg-emerald-50 px-8 py-4 rounded-full transition"
+>
+  Conoce más
+</a>
           </div>
 
           <div className="flex flex-wrap gap-10 mt-14">

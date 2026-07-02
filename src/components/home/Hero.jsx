@@ -18,7 +18,7 @@ export default function Hero() {
             Atención psicológica profesional
           </span>
 
-          <h2 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight">
+          <h2 className="text-3xl md:text-6xl font-bold text-gray-800 leading-tight">
             Tu bienestar emocional merece ser una prioridad.
           </h2>
 
@@ -31,14 +31,14 @@ export default function Hero() {
           <div className="flex gap-4 mt-10">
             <a
   href="#contacto"
-  className="bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-4 rounded-full transition shadow-md"
+  className="bg-emerald-700 hover:bg-emerald-800 text-white px-6 py-3 md:px-8 md:py-4 rounded-full transition shadow-md"
 >
   Agenda tu cita
 </a>
 
             <a
   href="#nosotros"
-  className="border border-emerald-700 text-emerald-700 hover:bg-emerald-50 px-8 py-4 rounded-full transition"
+  className="border border-emerald-700 text-emerald-700 hover:bg-emerald-50 px-6 py-3 md:px-8 md:py-4 rounded-full transition"
 >
   Conoce más
 </a>
@@ -76,7 +76,7 @@ export default function Hero() {
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-emerald-100 rounded-full blur-3xl opacity-60"></div>
 
             {/* imagen */}
-            <div className="relative w-[420px] h-[520px] rounded-[40px] overflow-hidden shadow-2xl">
+            <div className="relative w-[300px] md:w-[420px] h-[380px] md:h-[520px] rounded-[40px] overflow-hidden shadow-2xl">
               <img
                 src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2"
                 alt="Psicóloga"
